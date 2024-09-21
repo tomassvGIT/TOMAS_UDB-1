@@ -1,0 +1,23 @@
+/* Creamos una clase del formulario en donde modificamos altura inicial*/
+.text-primary {
+    color: #257dfc;
+}
+
+.card {
+    transition: transform 0.2s;
+    /* Animación al pasar el mouse */
+    border: none;
+    /* Sin borde */
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    /* Sube un poco al pasar el mouse */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    /* Sombra tenue */
+}
+
+.sha {
+    background-color: #f8f9fa;
+    /* Color de fondo tenue */
+}

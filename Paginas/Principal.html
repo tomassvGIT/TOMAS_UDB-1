@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/CSS/PaginaBienvenida.css">
+</head>
+
+<body>
+    <header>
+        <div class="container-fluid bg-light py-2">
+            <div class="d-flex justify-content-between align-items-center">
+                <!-- Botones a la izquierda -->
+                <div class="px-4">
+                    <button class="btn btn-primary" onclick="window.location.href='#'">Página Principal</button>
+                    <button class="btn btn-secondary" onclick="window.location.href='/index.html'">Página de Inicio</button>
+                </div>
+                <!-- Datos personales a la derecha -->
+                <span class="h6">Nombre: Juan Pérez | Cuenta: 123456789</span>
+            </div>
+        </div>
+
+        <!-- Sección de bienvenida -->
+        <section>
+            <div class="container py-5">
+                <div class="row align-items-center justify-content-center">
+                    <div class="col-12 col-lg-6 order-2 order-lg-1 text-center text-lg-start">
+                        <h1 class="display-4 fw-bold"><span class="text-primary">Facilita</span> tus Pagos con Nuestra App</h1>
+                        <p class="lead">Gestiona tus pagos de manera fácil y segura. Con nuestra aplicación, podrás realizar transacciones, pagar servicios y llevar el control de tus finanzas desde la comodidad de tu hogar. ¡Tu seguridad y comodidad son nuestra prioridad!</p>
+                        <button class="btn btn-primary px-5 py-3 d-inline-block" onclick="window.location.href='/Paginas/Servicios.html'">Pagar Servicios</button>
+                    </div>
+                    <div class="col-12 col-lg-6 order-1 order-lg-2">
+                        <img src="/Imajenes/pokemon-23.svg" alt="Pokemon Bank" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+            <hr>
+        </section>
+    </header>
+
+    <main>
+        <!-- Sección fusionada de transacciones e historial de transacciones -->
+        <section class="container py-5">
+            <div class="row">
+                <div class="col-12 col-lg-5">
+                    <img src="/Imajenes/Bank.jpg" alt="Imagen del banco" class="img-fluid">
+                </div>
+                <div class="col-12 col-lg-7">
+                    <h2 class="text-primary fs-1 fw-bold mb-5 text-center">Transacciones e Historial</h2>
+                    <p class="text-center">En este apartado podrás realizar todas las transacciones necesarias, como depósitos, retiros y consultar el saldo. Además, podrás revisar tu historial de transacciones para llevar un control claro y detallado de todas tus operaciones, lo que te permitirá tomar decisiones financieras más informadas.</p>
+                    <div class="text-center">
+                        <button class="btn btn-primary px-5 py-3" onclick="window.location.href='/Paginas/Transaccion.html'">Ir a Transacciones</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <hr>
+
+        <!-- Sección de análisis de transacciones -->
+        <section class="container py-5">
+            <div class="row">
+                <div class="col-12 col-lg-5">
+                    <img src="/Imajenes/Graficos.jpg" alt="Imagen del banco" class="img-fluid">
+                </div>
+                <div class="col-12 col-lg-7">
+                    <h2 class="text-primary text-center">Análisis de Transacciones</h2>
+                    <p class="mt-3">En Pokemon Bank, tendrás acceso a gráficos que te permitirán analizar el tipo de transacciones que has realizado, ayudándote a comprender mejor tus hábitos financieros.</p>
+                    <div class="text-center mt-4">
+                        <button class="btn btn-primary px-5 py-3" onclick="window.location.href='/Paginas/graficos.html'">Ver Gráficos</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="/bootstrap/js/bootstrap.min.js"></script>
+</body>
+</html>

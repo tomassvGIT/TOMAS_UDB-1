@@ -1,0 +1,42 @@
+* {
+
+    padding: 5px;
+}
+
+:root {
+    --dark: #16191c;
+    --dark-x: #1e2126;
+    --ligth: #ffffff;
+
+}
+
+.bg-dark {
+
+    background-color: var(--dark) !important;
+    /* */
+
+}
+
+body {
+    color: var(--ligth);
+}
+
+/* Creamos una clase del formulario en donde modificamos altura inicial*/
+.form-control,
+.btn {
+
+    min-height: 3.125rem;
+    line-height: initial;
+}
+
+.img-1 {
+    background-image: url(/Imajenes/istockphoto-1351571961-1024x1024.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.img-2 {
+    background-image: url(/Imajenes/Bank.jpg);
+    background-size: cover;
+    background-position: center;
+}
